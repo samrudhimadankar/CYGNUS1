@@ -1,0 +1,4 @@
+- name: Upload artifact
+  uses: actions/upload-pages-artifact@v1
+  with:
+    path: ./build   # <-- change this if your output folder is different
